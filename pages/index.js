@@ -11,11 +11,11 @@ const page = () => {
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
-          <Heading as="h1" variant="page-title">
-            Nikhil Simon Toppo
+          <Heading as="h2" variant="page-title">
+            Sakshi Sinha
           </Heading>
 
-          <p>Digital Craftzman (Artist / Developer/ Designer)</p>
+          <p>Digital Craftzman (Artist / Singer/ Designer)</p>
         </Box>
       </Box>
     </Container>

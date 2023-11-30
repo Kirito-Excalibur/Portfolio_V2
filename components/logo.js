@@ -30,7 +30,7 @@ const Logo=()=>{
                     fontFamily="'M PLUS Rounded 1c', sans-serif"
                     fontWeight='bold'
                    
-                    >Nikhil Simon Toppo</Text>
+                    >Goofball</Text>
                 </LogoBox>
           
         </Link>
