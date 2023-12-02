@@ -26,7 +26,10 @@ const LinkItem = ({ href, path, children }) => {
 
   return (
     <Link
+      href={href}
+      as={NextLink}
       p={2}
+      borderRadius="6px"
       bg={active ? 'glassTeal' : undefined}
       color={active ? '#202023' : inactiveColor}
     >
@@ -38,15 +41,13 @@ const LinkItem = ({ href, path, children }) => {
 const Navbar = props => {
   const { path } = props
 
-
-
   return (
     <Box
       position="fixed"
       as="nav"
       w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}
-      style={{ backdropFilter: 'blur' }}
+      style={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
       {...props}
     >
@@ -79,7 +80,7 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-        <ThemeToggleButton/>
+          <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu>
               <MenuButton
@@ -92,13 +93,13 @@ const Navbar = props => {
               <MenuList>
                 <NextLink href="/about" passHref suppressHydrationWarning>
                   <MenuItem as="span">About</MenuItem>
-              </NextLink>
-              <NextLink href="/works" passHref suppressHydrationWarning>
+                </NextLink>
+                <NextLink href="/works" passHref suppressHydrationWarning>
                   <MenuItem as="span">Works</MenuItem>
-              </NextLink>
-              <NextLink href="/posts" passHref suppressHydrationWarning>
+                </NextLink>
+                <NextLink href="/posts" passHref suppressHydrationWarning>
                   <MenuItem as="span">Posts</MenuItem>
-              </NextLink>
+                </NextLink>
               </MenuList>
             </Menu>
           </Box>

@@ -1,13 +1,18 @@
 'use client'
-
 import {
   Container,
   Box,
   Heading,
   Image,
   useColorModeValue,
+  Button,
+  Link,
 } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
 const page = () => {
   return (
     <Container>
@@ -16,9 +21,10 @@ const page = () => {
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         p={3}
         mb={6}
+        mt={6}
         align="center"
       >
-        <div>Hello, I&apos;m a full-stack developer based in India</div>
+        <div>Hello, I&apos;m a graphic designer based in India</div>
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -49,9 +55,56 @@ const page = () => {
       </Box>
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Message from an old friend
         </Heading>
-        <p>Paragraph</p>
+
+        <Paragraph>
+          Sakshi Sinha is one the most wierdest yet lovable human beings I've
+          met. When you'll meet her, at first you will find her loud and
+          obnoxious. She throws lots of tantrums, listens to no one other than
+          herself. If it were upto her, she would paint the whole world in her
+          colors. But for now she's just a struggling college kid.{' '}
+        </Paragraph>
+        <Box align="center" my={4}>
+          <NextLink href="https://www.behance.net/sakshisinha17" passHref>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My Portfolio
+            </Button>
+          </NextLink>
+        </Box>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>2002</BioYear>
+          Born in Dhanbad, India.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2021</BioYear>
+          Finished Schooling From De Nobili, Koradih.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Pursuing Chemical Engineering from BIT Mesra, Ranchi
+        </BioSection>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I love
+        </Heading>
+        I love my indomitable mother for her unwavering strength and endless
+        love.
+        <br />
+        I love my zealous father for his support, his short temperament makes
+        him unique.
+        <br />I love my devoted brother for his unwavering support and
+        occasional quirks
       </Section>
     </Container>
   )
