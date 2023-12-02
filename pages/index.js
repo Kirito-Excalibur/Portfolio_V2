@@ -12,9 +12,11 @@ import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
 const page = () => {
   return (
+    <Layout>
     <Container>
       <Box
         borderRadius="lg"
@@ -107,6 +109,7 @@ const page = () => {
         occasional quirks
       </Section>
     </Container>
+    </Layout>
   )
 }
 
