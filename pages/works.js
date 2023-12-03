@@ -18,7 +18,9 @@ const Works = () => {
               title="LEAD 4.0"
               thumbnail="/images/works/lead_4.0.png"
             >
-              Life is wierd. So is Sakshi
+              Created for my club IEEE. For the LEAD 4.0 event. Where we, the
+              K22 acted as our personal mentors for 3-weeks to help us create
+              our very first set of developement projects.
             </WorkGridItems>
           </Section>
 
@@ -28,36 +30,38 @@ const Works = () => {
               title="Finance Club"
               thumbnail="/images/works/finance.png"
             >
-              Life is wierd. So is Sakshi
+              A template for the finance workshop organised by the Finance Club
+              of our club.
             </WorkGridItems>
           </Section>
 
           <Section>
             <WorkGridItems
               src="https://www.behance.net/gallery/171117447/SupportLocalBusiness"
-              title="Support Local Businesses"
+              title="Dramanite"
               thumbnail="/images/works/dark_knight.png"
             >
-              Life is wierd. So is Sakshi
+              A template for annual Dramanite event by our drama club, Ehsaas.
             </WorkGridItems>
           </Section>
 
           <Section>
             <WorkGridItems
               src="https://www.behance.net/gallery/183305525/IEEE-LEAD-40"
-              title="Blue Future"
+              title="Technical Event"
               thumbnail="/images/works/blue_future.png"
             >
-              Life is wierd. So is Sakshi
+              A template for a Technical Event.
             </WorkGridItems>
           </Section>
+
           <Section>
             <WorkGridItems
               src="https://www.behance.net/gallery/183305525/IEEE-LEAD-40"
               title="Rakhsha Bandhan"
               thumbnail="/images/works/Rakhi.png"
             >
-              Life is wierd. So is Sakshi
+              Created for my club IIChE. For the Rakhsha Bandhan event.
             </WorkGridItems>
           </Section>
 
@@ -67,25 +71,26 @@ const Works = () => {
               title="Night Club Party"
               thumbnail="/images/works/night__club_party.png"
             >
-              Life is wierd. So is Sakshi
+              Created for my music club, Dhwani. A showcase of my designing
+              skills.
             </WorkGridItems>
           </Section>
           <Section>
             <WorkGridItems
               src="https://www.behance.net/gallery/183305525/IEEE-LEAD-40"
-              title="Govardhan"
+              title="Govardhan Puja"
               thumbnail="/images/works/govardhan.png"
             >
-              Life is wierd. So is Sakshi
+              Created for my club IIChE. For the Govardhan Puja.
             </WorkGridItems>
           </Section>
           <Section>
             <WorkGridItems
               src="https://www.behance.net/gallery/183305525/IEEE-LEAD-40"
-              title="Music Festival"
+              title="Summer Music Festival"
               thumbnail="/images/works/music_festival.png"
             >
-              Life is wierd. So is Sakshi
+              A template designed for my music club, Dhwani. For the Summer Music Festival.
             </WorkGridItems>
           </Section>
         </SimpleGrid>

@@ -91,7 +91,7 @@ const Navbar = props => {
               />
 
               <MenuList>
-                <NextLink href="/about" passHref suppressHydrationWarning>
+                <NextLink href="/" passHref suppressHydrationWarning>
                   <MenuItem as="span">About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref suppressHydrationWarning>

@@ -101,12 +101,12 @@ const page = () => {
           I love
         </Heading>
         I love my indomitable mother for her unwavering strength and endless
-        love.
+        love. ❤️
         <br />
         I love my zealous father for his support, his short temperament makes
-        him unique.
+        him unique. 👊
         <br />I love my devoted brother for his unwavering support and
-        occasional quirks
+        occasional quirks. 🐒
       </Section>
     </Container>
     </Layout>
